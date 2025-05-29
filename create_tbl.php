@@ -7,7 +7,7 @@ $sql_create_tbl = "CREATE TABLE tbl_emp(
     Faculty VARCHAR(10) NOT NULL
 )";
 if($conn->execute_query($sql_create_tbl)){
-    // echo"table is created";
+     echo"table is created";
 }
 else{
     echo"Failed to  create table";
