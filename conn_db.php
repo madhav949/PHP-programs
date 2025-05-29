@@ -8,7 +8,7 @@ if(($conn->connect_error)===TRUE){
     die("connection failed..");
 }
 else{
-    // echo"database connected";
+     echo"database connected";
 }
 
 ?>
